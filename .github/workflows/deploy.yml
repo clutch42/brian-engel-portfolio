@@ -36,5 +36,4 @@ jobs:
           aws configure set default.region 'us-east-2'
 
       - name: Deploy to S3
-        run: |
-          aws s3 sync ./dist s3://brian-engel-portfolio --delete --acl public-read
+        run: aws s3 sync ./dist s3://brian-engel-portfolio --delete

@@ -37,3 +37,7 @@ jobs:
 
       - name: Deploy to S3
         run: aws s3 sync ./dist s3://brian-engel-portfolio --delete
+
+      - name: Invalidate CloudFront Cache
+        run: aws cloudfront create-invalidation --distribution-id E3HR6FLHEFCQ5H --paths "/*"
+

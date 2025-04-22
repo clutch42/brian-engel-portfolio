@@ -17,7 +17,7 @@ const Hero: React.FC = () => {
 
         {/* Short Summary */}
         <p className="hero-summary">
-        This page is more about me—how I think, what I love, and some very questionable hobbies.
+        This page is more about me—how I think, what I love, and some unusual hobbies.
         Click around if you're curious. If not, no hard feelings—there's a nav bar up top for the other stuff, go wild.
         </p>
       </div>

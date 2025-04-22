@@ -17,9 +17,9 @@
 }
 
 /* Ensure minimum body styling (no margin, 100vh min height) */
-body {
+/* body {
   margin: 0;
   min-width: 320px;
   min-height: 100vh;
-  color: var(--text-color, rgba(255, 255, 255, 0.87)); /* Default text color */
-}
+  color: var(--text-color, rgba(255, 255, 255, 0.87)); 
+} */

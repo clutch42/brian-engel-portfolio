@@ -1,0 +1,50 @@
+.projects {
+    /* padding: 4rem 2rem; */
+    /* background-color: #1a1a1a; Dark background to contrast with hero */
+    color: #fff;
+    text-align: center;
+  }
+  
+  .projects h2 {
+    font-size: 2.5em;
+    margin-bottom: 2rem;
+  }
+  
+  .project-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 2rem;
+  }
+  
+  .project-card {
+    background-color: #2d2d2d;
+    padding: 1.5rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease;
+  }
+  
+  .project-card:hover {
+    transform: translateY(-10px);
+  }
+  
+  .project-card h3 {
+    font-size: 1.8em;
+    margin-bottom: 1rem;
+  }
+  
+  .project-card p {
+    font-size: 1.1em;
+    margin-bottom: 1.5rem;
+  }
+  
+  .project-card a {
+    color: #4f86f7;
+    font-weight: 500;
+    text-decoration: none;
+  }
+  
+  .project-card a:hover {
+    text-decoration: underline;
+  }
+  

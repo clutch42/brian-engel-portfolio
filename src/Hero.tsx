@@ -3,23 +3,21 @@ import './Hero.css'; // Assuming you're still using global styles or separate co
 
 const Hero: React.FC = () => {
   return (
-    <div className="relative w-full h-screen overflow-hidden">
-      {/* Animated background */}
-      <div className="animated-bg" />
-      
-      {/* Hero content */}
-      <div className="relative z-10 flex flex-col items-center justify-center h-full text-white px-4">
-        <h1 className="text-5xl md:text-6xl font-bold text-center">
-          Hey, I'm Brian
-        </h1>
-        <p className="mt-4 text-lg text-center">
-          A passionate Software Engineer focused on frontend technologies.
+    <div className="hero-container">
+      <div className="hero-content">
+        {/* Your Picture */}
+        <img className="hero-image" src="/path-to-your-image.jpg" alt="Brian Engel" />
+
+        {/* Your Name */}
+        <h1 className="hero-title">Hey, I'm Brian</h1>
+
+        {/* Short Introduction */}
+        <p className="hero-intro">A passionate Software Engineer focused on frontend technologies.</p>
+
+        {/* Short Summary */}
+        <p className="hero-summary">
+          I'm always exploring new ways to make the web more interactive, intuitive, and user-friendly.
         </p>
-        <div className="mt-8">
-          {/* Call to Action buttons */}
-          <button className="mr-4">View Projects</button>
-          <button>Download Resume</button>
-        </div>
       </div>
     </div>
   );

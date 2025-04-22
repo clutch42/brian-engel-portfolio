@@ -1,0 +1,38 @@
+
+/* Navigation Bar Styling */
+nav {
+    background-color: rgba(0, 0, 0, 1); /* Semi-transparent black background */
+    padding: 1rem;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000; /* Ensures it stays on top */
+    height: 60px;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 2rem; /* Adds space between the links */
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: white; /* White text */
+    font-size: 1.2rem;
+    font-weight: 500;
+    transition: color 0.3s ease, transform 0.3s ease;
+  }
+  
+  nav a:hover {
+    color: #fbbd08; /* Change to a nice accent color (tomato) */
+    transform: scale(1.1); /* Slight scaling on hover for effect */
+  }
+  
+  nav a:active {
+    color: #d98e04; /* Darker red when clicking */
+  }
+  

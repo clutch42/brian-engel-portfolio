@@ -56,6 +56,7 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  list-style: none;
   gap: 2rem;
   margin-top: 3rem;
   max-width: 1000px;
@@ -64,10 +65,19 @@
 
 .hobby-card {
   width: 200px;
-  height: 200px;
-  background-color: red;
+  height: 270px;
+  background-color: rgba(0, 0, 0, 0.6);
   cursor: pointer;
+  overflow: hidden;
+  padding: 10px;
   border-radius: 8px;  /* Optional: Soft rounded corners */
   box-shadow: 0 8px 12px rgba(0, 0, 0, 0.3);  /* Shadow for depth */
   transition: transform 0.3s ease;  /* Smooth transition for hover effect */
+}
+
+.hobby-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
 }

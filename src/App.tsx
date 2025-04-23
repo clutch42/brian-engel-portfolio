@@ -5,6 +5,7 @@ import Contact from './Contact';
 import Projects from './Projects';
 import Education from './Education';
 import Nav from './Nav';
+import HobbyDetails from './HobbyDetails';
 
 function AppWrapper() {
   const location = useLocation();
@@ -27,6 +28,9 @@ function AppWrapper() {
           
           {/* Route for Contact */}
           <Route path="/contact" element={<Contact />} />
+
+          {/* Route for Hobbies */}
+          <Route path="/hobby/:id" element={<HobbyDetails />} />
         </Routes>
       </div>
     </>

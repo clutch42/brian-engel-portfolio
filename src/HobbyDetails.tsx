@@ -4,14 +4,39 @@ import './HobbyDetails.css';
 
 const hobbyData: Record<string, { title: string; description: string; image: string }> = {
   'hiking': {
-    title: 'Hiking Adventures',
-    description: 'I love hiking up weird hills and pretending I’m being chased by dinosaurs.',
+    title: 'Hiking',
+    description: 'placeholder for hiking description',
     image: '/images/teddy_dinosaur.jpg',
   },
   'darts': {
-    title: 'Throwing Sharp Things',
-    description: 'Sometimes I hit the bullseye. Most of the time, I hit the wall.',
+    title: 'Darts',
+    description: 'placeholder for darts description',
     image: '/images/darts.jpg',
+  }, 
+  'gaming': {
+    title: 'Gaming',
+    description: 'place holder for gaming description',
+    image: '/images/gaming.jpg'
+  },
+  'bartending': {
+    title: 'bartending',
+    description: 'placeholder for gaming description',
+    image: '/images/bartending.jpg'
+  },
+  'baseball': {
+    title: 'baseball',
+    description: 'placeholder for gaming description',
+    image: '/images/baseball.jpg'
+  },
+  'cooking': {
+    title: 'cooking',
+    description: 'placeholder for cooking description',
+    image: '/images/cooking.jpg'
+  },
+  'disc_golf': {
+    title: 'disc golf',
+    description: 'placeholder for disc golf description',
+    image: '/images/disc_golf.jpg'
   }
 };
 

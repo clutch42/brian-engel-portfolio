@@ -3,6 +3,7 @@ import './App.css';
 import Hero from './Hero';
 import Contact from './Contact';
 import Projects from './Projects';
+import Education from './Education';
 import Nav from './Nav';
 
 function AppWrapper() {
@@ -17,6 +18,9 @@ function AppWrapper() {
         <Routes>
           {/* Route for Home (Index) */}
           <Route path="/" element={<Hero />} />
+
+          {/* Route for Education */}
+          <Route path="/education" element={<Education />} />
           
           {/* Route for Projects */}
           <Route path="/projects" element={<Projects />} />

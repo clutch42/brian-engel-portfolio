@@ -4,6 +4,7 @@
   width: 350px;  /* Adjust to the size of your images */
   height: 400px; /* Adjust to the size of your images */
   cursor: pointer;  /* Changes cursor to hand when hovering over the image */
+  margin: 50px 50px;
 }
 
 .flip-image-container {
@@ -11,6 +12,15 @@
   width: 100%;  /* Adjust to the size of your images */
   height: 100%; /* Adjust to the size of your images */
   perspective: 1000px; /* Gives depth to the flip effect */
+
+  box-shadow: 0 8px 12px rgba(0, 0, 0, 1);
+  border-radius: 12px;
+  transition: transform 0.3s ease;
+}
+
+.flip-image-container:hover {
+  /* hover effect to show it's interactive */
+  transform: scale(1.03) rotateX(2deg) rotateY(2deg);
 }
 
 .flip-image {
@@ -21,6 +31,7 @@
   position: absolute;
   top: 0;
   left: 0;
+  border-radius: 12px;
 }
 
 .flip-image-container.flipped .flip-image:first-child {

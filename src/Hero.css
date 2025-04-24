@@ -81,3 +81,17 @@
   object-fit: cover;
   display: block;
 }
+
+@media (max-width: 768px) {
+  .hero-hobbies-list {
+    flex-direction: column;
+    align-items: center;
+    gap: 1.5rem;
+  }
+
+  .hobby-card {
+    width: 90%;
+    height: 180px;
+    margin-bottom: 1.5rem;
+  }
+}

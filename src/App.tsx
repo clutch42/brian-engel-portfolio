@@ -1,4 +1,4 @@
-import { BrowserRouter as Router, Routes, Route, useLocation } from 'react-router-dom';
+import { BrowserRouter as Router, Routes, Route, useLocation, Navigate } from 'react-router-dom';
 import './App.css';
 import Hero from './Hero';
 import Contact from './Contact';
@@ -31,6 +31,8 @@ function AppWrapper() {
 
           {/* Route for Hobbies */}
           <Route path="/hobby/:id" element={<HobbyDetails />} />
+          
+          <Route path="*" element={<Navigate to="/" />} />
         </Routes>
       </div>
     </>

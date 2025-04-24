@@ -49,3 +49,18 @@ nav ul li a.active {
   font-weight: bold;
   
 }
+
+@media (max-width: 768px) {
+  nav {
+    padding: 0.5rem;  /* Reduce padding for smaller screens */
+    height: auto;     /* Ensure height adjusts based on content */
+  }
+
+  nav ul li {
+    margin: 0 0.5rem; /* Adjust margin for better spacing */
+  }
+
+  nav a {
+    font-size: clamp(12px, 3vw, 24px);
+  }
+}

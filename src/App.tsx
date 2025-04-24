@@ -31,8 +31,8 @@ function AppWrapper() {
 
           {/* Route for Hobbies */}
           <Route path="/hobby/:id" element={<HobbyDetails />} />
-          
-          <Route path="*" element={<Navigate to="/" />} />
+
+          <Route path="*" element={<Navigate to="/" replace />} />
         </Routes>
       </div>
     </>

@@ -86,12 +86,12 @@
   .hero-hobbies-list {
     flex-direction: column;
     align-items: center;
-    gap: 1.5rem;
+    gap: 1.0rem;
   }
 
   .hobby-card {
-    width: 90%;
+    width: 100%;
     height: 180px;
-    margin-bottom: 1.5rem;
+    margin-bottom: 1.0rem;
   }
 }

@@ -130,7 +130,7 @@ p {
 @media (max-width: 768px) {
   .animated-bg {
     animation: none; /* Disable animation for mobile devices */
-    background: #1f2937;
+    background: #3b82f6;
     background-size: 100% 100%; /* Ensure background still covers the screen */
   }
 }

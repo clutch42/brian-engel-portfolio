@@ -11,7 +11,7 @@ const hobbyData: Record<string, { title: string; description: string; image: str
     People get lost, weather turns fast, and yes, people die out there. And maybe that\'s part of why I go. It\'s real. Reaching a peak or following \
     a snow-covered trail means something because it\'s not guaranteed. I\'m always trying to push myself—go a little farther, climb a little higher—not \
     to prove anything, but because that edge, that risk, makes everything feel more alive. It\'s a chance to disconnect and reset in a way that comfort never could.',
-    image: '/images/teddy_dinosaur.jpg',
+    image: '/images/teddy_dinosaur.webp',
   },
   'darts': {
     title: 'Professional Wall Denter',
@@ -19,7 +19,7 @@ const hobbyData: Record<string, { title: string; description: string; image: str
     and the fun of improving with every throw. I\'ve competed in leagues and tournaments, but what I really love is teaching others the strategy—knowing what \
     to throw at, when to take risks, and how to manage the game. I always play to win, but win or lose, I\'m in it for the fun. Whether it\'s a casual match or \
     a more competitive setting, darts keeps me engaged and always offers something new to learn.',
-    image: '/images/darts.jpg',
+    image: '/images/darts.webp',
   }, 
   'gaming': {
     title: 'Inventory Full',
@@ -28,7 +28,7 @@ const hobbyData: Record<string, { title: string; description: string; image: str
     played across genres—FPS, RPGs, and everything in between. As much as I love gaming, I\'ve also become more aware of how often new titles launch unfinished, buggy, \
     or laggy. It\'s frustrating, but it\'s also a reminder of how important solid testing and user experience really are—something I think about often, both in and out \
     of games.',
-    image: '/images/gaming.jpg'
+    image: '/images/gaming.webp'
   },
   'bartending': {
     title: 'Cool Under Pressure, Warm With People',
@@ -38,7 +38,7 @@ const hobbyData: Record<string, { title: string; description: string; image: str
     customer drops or understanding the unspoken needs of the team. The diversity in the industry has broadened my understanding of different perspectives, and patience, \
     especially with language barriers, has become second nature. Whether it\'s managing a difficult customer or keeping a team motivated during a busy shift, the skills \
     I\'ve learned in the service industry translate into everything I do.',
-    image: '/images/bartending.jpg'
+    image: '/images/bartending.webp'
   },
   'baseball': {
     title: 'Take Me Out to the Ball Game',
@@ -46,7 +46,7 @@ const hobbyData: Record<string, { title: string; description: string; image: str
     followed the Astros through everything—yes, even the banging trash cans—and they\'re still my team. I catch away games whenever I can and make a habit of touring MLB \
     stadiums in any city I visit. I\'ve even been to spring training in West Palm Beach. What keeps me hooked is how much thinking the game demands. The strategy, the matchups, \
     the stats—it\'s all part of the experience. Every pitch, every situation is its own little equation, and I love watching how it all plays out.',
-    image: '/images/baseball.jpg'
+    image: '/images/baseball.webp'
   },
   'cooking': {
     title: 'No Recipe, No Problem',
@@ -55,14 +55,14 @@ const hobbyData: Record<string, { title: string; description: string; image: str
     I\'m baking, grilling, smoking, or putting together a meal from scratch, I cook with the same attention to detail I learned on the job. I rarely follow recipes \
     exactly—I\'m always tweaking things to fit my own taste. For me, cooking is part creativity, part skill, and part instinct, and there\'s nothing more satisfying \
     than making something great and sharing it with others.',
-    image: '/images/cooking.jpg'
+    image: '/images/cooking.webp'
   },
   'disc_golf': {
     title: 'Aiming for the Chains',
     description: 'Disc golf is a perfect mix of precision and the outdoors. I\'ve always enjoyed the challenge, and it\'s a great way to get some exercise while having fun. \
     One of the toughest rounds I\'ve played was in Denver, where snow covered the ground. To track our discs, we taped ribbons to them so they\'d stay visible above the snow \
     when they landed. It was a creative solution to a tricky problem, and that\'s what I love about disc golf—the constant mix of strategy, adaptability, and fun.',
-    image: '/images/disc_golf.jpg'
+    image: '/images/disc_golf.webp'
   }
 };
 

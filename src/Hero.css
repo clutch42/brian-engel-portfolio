@@ -76,6 +76,8 @@
 
   content-visibility: auto;
   contain-intrinsic-size: 270px;
+  will-change: transform, opacity;
+  backface-visibility: hidden;
 }
 
 .hobby-image {

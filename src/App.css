@@ -93,7 +93,7 @@ p {
   top: 0;
   left: 0;
   width: 100%;
-  min-height: 100%;
+  min-height: 100vh;
   z-index: -1;
 }
 
@@ -122,5 +122,13 @@ p {
 
   button {
     background-color: #f9f9f9;
+  }
+}
+
+/* Media Query to disable animation on mobile devices */
+@media (max-width: 768px) {
+  .animated-bg {
+    animation: none; /* Disable animation for mobile devices */
+    background-size: 100% 100%; /* Ensure background still covers the screen */
   }
 }

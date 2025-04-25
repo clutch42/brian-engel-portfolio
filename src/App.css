@@ -95,6 +95,7 @@ p {
   width: 100%;
   min-height: 100vh;
   z-index: -1;
+  will-change: background-position;
 }
 
 @keyframes gradientShift {
@@ -129,6 +130,7 @@ p {
 @media (max-width: 768px) {
   .animated-bg {
     animation: none; /* Disable animation for mobile devices */
+    background: #1f2937;
     background-size: 100% 100%; /* Ensure background still covers the screen */
   }
 }

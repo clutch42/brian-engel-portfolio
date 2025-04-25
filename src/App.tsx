@@ -6,6 +6,7 @@ import Projects from './Projects';
 import Education from './Education';
 import Nav from './Nav';
 import HobbyDetails from './HobbyDetails';
+import ScrollToTop from './ScrollToTop';
 
 function AppWrapper() {
   const location = useLocation();
@@ -16,6 +17,7 @@ function AppWrapper() {
 
       {/* Apply animated-bg class to all pages except Contact */}
       <div className={`page-container ${location.pathname === "/contact" ? "contact-bg" : "animated-bg"}`}>
+        <ScrollToTop />
         <Routes>
           {/* Route for Home (Index) */}
           <Route path="/" element={<Hero />} />

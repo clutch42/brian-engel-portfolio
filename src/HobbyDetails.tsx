@@ -79,7 +79,7 @@ const HobbyDetails: React.FC = () => {
   return (
     <div className="hobby-detail-container">
       <h1>{hobby.title}</h1>
-      <img src={hobby.image} alt={hobby.title} style={{ width: '300px', borderRadius: '12px' }} />
+      <img src={hobby.image} alt={hobby.title} style={{ width: '300px', borderRadius: '12px' }} loading="lazy" />
       <p>{hobby.description}</p>
       <button onClick={() => navigate(-1)}>Go Back</button>
     </div>

@@ -27,37 +27,37 @@ const Hero: React.FC = () => {
           <ul className="hero-hobbies-list">
             <li className="hobby-card">
               <Link to="hobby/bartending">
-                <img src="/images/bartending.webp" alt="bartending" className="hobby-image" />
+                <img src="/images/bartending.webp" alt="bartending" className="hobby-image" loading="lazy" />
               </Link>
             </li>
             <li className="hobby-card">
               <Link to="hobby/hiking">
-                <img src="/images/teddy_dinosaur.webp" alt="teddy and dinosaur" className="hobby-image" />
+                <img src="/images/teddy_dinosaur.webp" alt="teddy and dinosaur" className="hobby-image" loading="lazy" />
               </Link>
             </li>
             <li className="hobby-card">
               <Link to="hobby/darts">
-                <img src="/images/darts.webp" alt="darts" className="hobby-image" />
+                <img src="/images/darts.webp" alt="darts" className="hobby-image" loading="lazy"  />
               </Link>
             </li>
             <li className="hobby-card">
               <Link to="hobby/gaming">
-                <img src="/images/gaming.webp" alt="gaming" className="hobby-image" />
+                <img src="/images/gaming.webp" alt="gaming" className="hobby-image" loading="lazy" />
               </Link>
             </li>
             <li className="hobby-card">
               <Link to="hobby/baseball">
-                <img src="/images/baseball.webp" alt="baseball" className="hobby-image" />
+                <img src="/images/baseball.webp" alt="baseball" className="hobby-image" loading="lazy" />
               </Link>
             </li>
             <li className="hobby-card">
               <Link to="hobby/cooking">
-                <img src="/images/cooking.webp" alt="cooking" className="hobby-image" />
+                <img src="/images/cooking.webp" alt="cooking" className="hobby-image" loading="lazy" />
               </Link>
             </li>
             <li className="hobby-card">
               <Link to="hobby/disc_golf">
-                <img src="/images/disc_golf.webp" alt="disc golf" className="hobby-image" />
+                <img src="/images/disc_golf.webp" alt="disc golf" className="hobby-image" loading="lazy" />
               </Link>
             </li>
 

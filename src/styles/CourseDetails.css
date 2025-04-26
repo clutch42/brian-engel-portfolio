@@ -1,11 +1,12 @@
 /* === Course Detail Page Styling === */
 .course-detail {
-    padding: 2rem;
+    padding: 2rem 1rem;
     max-width: 900px;
     margin: 4rem auto;
     background-color: rgba(0, 0, 0, 0.7);
     color: white;
     border-radius: 8px;
+    
   }
   
   .course-detail h2 {
@@ -72,4 +73,14 @@
 /* Focus effect on back button */
 .course-detail button:focus {
     outline: 4px auto -webkit-focus-ring-color;
+}
+
+/* Mobile Adjustments */
+@media (max-width: 768px) {
+  .course-detail {
+    padding: 1.5rem 1rem; /* Adjust padding for mobile */
+    margin: 2rem; /* Reduce margin for mobile to give better spacing */
+    margin-top: 3rem;
+    max-width: 100%; /* Allow container to take up the full screen width */
+  }
 }

@@ -8,7 +8,7 @@ h2 {
 }
 
 .education-container {
-    padding: 4rem 2rem;
+    padding: 2rem 1rem;
     max-width: 1200px;
     margin: 0 auto;
     text-align: center;
@@ -54,4 +54,36 @@ h2 {
 
 .course-card h3 {
   font-size: 1.5rem; 
+}
+
+/* === Mobile Specific Adjustments for Education Page === */
+@media (max-width: 768px) {
+  /* Adjust the padding for mobile to fit content better */
+  .education-container {
+    padding: 2rem 1rem; /* Less padding on smaller screens */
+  }
+
+  /* Adjust the education section's padding for mobile */
+  .education-section {
+    padding: 1.5rem; /* Reduce padding to fit content */
+    margin: 1rem; /* Reduce margin between sections */
+  }
+
+  /* Adjust the courses list grid layout for smaller screens */
+  .courses-list {
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); /* Decrease min column width */
+    gap: 1rem; /* Reduce gap between cards */
+    margin-top: 1.5rem; /* Reduced margin for better alignment */
+  }
+
+  /* Adjust course card padding and font size for mobile */
+  .course-card {
+    padding: 1rem; /* Reduce padding for smaller screens */
+    font-size: 0.9rem; /* Adjust font size */
+    min-height: 80px; /* Optionally reduce the min-height */
+  }
+
+  .course-card h3 {
+    font-size: 1.2rem; /* Make heading font size smaller */
+  }
 }

@@ -1,12 +1,12 @@
 import { BrowserRouter as Router, Routes, Route, useLocation, Navigate } from 'react-router-dom';
-import './App.css';
-import Hero from './Hero';
-import Contact from './Contact';
-import Projects from './Projects';
-import Education from './Education';
-import Nav from './Nav';
-import HobbyDetails from './HobbyDetails';
-import ScrollToTop from './ScrollToTop';
+import './styles/App.css';
+import Hero from './pages/Hero';
+import Contact from './pages/Contact';
+import Projects from './pages/Projects';
+import Education from './pages/Education';
+import Nav from './components/Nav';
+import HobbyDetails from './components/HobbyDetails';
+import ScrollToTop from './components/ScrollToTop';
 
 function AppWrapper() {
   const location = useLocation();

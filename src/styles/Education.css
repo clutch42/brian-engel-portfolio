@@ -1,0 +1,57 @@
+/* === Education Page Styling === */
+li {
+  list-style-type: none;
+}
+
+h2 {
+  padding-bottom: 1rem;
+}
+
+.education-container {
+    padding: 4rem 2rem;
+    max-width: 1000px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+.education-section {
+  z-index: 1;
+  color: white;
+  max-width: 100%;
+  background-color: rgba(0, 0, 0, 0.6); /* Greyish semi-transparent background */
+  padding: 2rem;
+  border-radius: 8px; /* Soft rounded corners */ 
+  margin: 2rem;
+}
+
+.courses-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 1.5rem;
+  margin-top: 2rem;
+}
+
+.course-card {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background-color: #1e1e2f;
+  padding: 1.2rem;
+  border-radius: 12px;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.3s;
+  color: #ffffff;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.4);
+  font-size: 0.85rem;
+  min-height: 100px; /* optional: makes all cards have a minimum height */
+}
+
+.course-card:hover {
+  background-color: #292943;
+  transform: translateY(-5px);
+}
+
+.course-card h3 {
+  font-size: 1.5rem; 
+}

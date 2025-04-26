@@ -1,6 +1,6 @@
 import React from 'react';
 import { useParams, useNavigate } from 'react-router-dom';
-import './HobbyDetails.css';
+import '../styles/HobbyDetails.css';
 
 const hobbyData: Record<string, { title: string; description: string; image: string }> = {
   'hiking': {

@@ -1,6 +1,6 @@
 import React from 'react';
-import './Hero.css'; // Assuming you're still using global styles or separate component styles
-import ToggleImage from './ToggleImage';
+import '../styles/Hero.css'; // Assuming you're still using global styles or separate component styles
+import ToggleImage from '../components/ToggleImage';
 import { Link } from 'react-router-dom';
 
 const Hero: React.FC = () => {

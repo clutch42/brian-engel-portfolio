@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import './ToggleImage.css'; // Make sure the CSS file is imported
+import '../styles/ToggleImage.css'; // Make sure the CSS file is imported
 
 const ToggleImage: React.FC = () => {
   const [flipped, setFlipped] = useState(false);

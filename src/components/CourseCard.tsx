@@ -1,6 +1,8 @@
 import React from "react";
+import { Link } from 'react-router-dom';
 
 interface Course {
+  id: string;
   name: string;
 }
 
@@ -10,9 +12,9 @@ interface CourseCardProps {
 
 const CourseCard: React.FC<CourseCardProps> = ({ course }) => {
   return (
-    <div className="course-card">
+    <Link to={`/courses/${course.id}`} className="course-card">
       <h3>{course.name}</h3>
-    </div>
+    </Link>
   );
 }
 

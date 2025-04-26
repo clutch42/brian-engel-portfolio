@@ -120,8 +120,8 @@ export const courses = [
     "description": "This course covers database design and management, focusing on structured databases and SQL. You'll gain practical experience using MySQL for handling large datasets and performing data science tasks."
     },
     {
-    "id": "Math",
-    "name": "Mathematics Courses",
+    "id": "Mathematics",
+    "name": "Assorted Math Courses",
     "skills": [
         "Calculus I & II", "Statistics", "Linear Algebra", "Discrete Mathematics"
     ],

@@ -8,19 +8,19 @@ h2 {
 }
 
 .education-container {
-    padding: 2rem 1rem;
-    max-width: 1200px;
-    margin: 0 auto;
-    text-align: center;
-  }
-  
+  padding: 2rem 1rem;
+  max-width: 1200px;
+  margin: 0 auto;
+  text-align: center;
+}
+
 .education-section {
   z-index: 1;
   color: white;
   max-width: 100%;
   background-color: rgba(0, 0, 0, 0.6); /* Greyish semi-transparent background */
   padding: 2rem;
-  border-radius: 8px; /* Soft rounded corners */ 
+  border-radius: 8px; /* Soft rounded corners */
   margin: 2rem;
 }
 
@@ -31,29 +31,64 @@ h2 {
   margin-top: 2rem;
 }
 
-.course-card {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
-  background-color: #1e1e2f;
+.certifications-list {
+  display: grid;
+  grid-template-columns: 1fr; /* Ensures each certification is on a new row */
+  gap: 1.5rem;
+  margin-top: 2rem;
+}
+
+/* === Course Card Styling === */
+.course-card,
+.certification-card {
+  background-color: #1e1e2f; /* Dark background color */
   padding: 1.2rem;
   border-radius: 12px;
   cursor: pointer;
   transition: background-color 0.3s, transform 0.3s;
-  color: #ffffff;
+  color: #ffffff; /* White text */
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.4);
   font-size: 0.85rem;
-  min-height: 100px; /* optional: makes all cards have a minimum height */
+  min-height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
 }
 
-.course-card:hover {
-  background-color: #292943;
+.course-card:hover,
+.certification-card:hover {
+  background-color: #292943; /* Lighter shade for hover */
   transform: translateY(-5px);
 }
 
-.course-card h3 {
-  font-size: 1.5rem; 
+.course-card h3,
+.certification-card h3 {
+  font-size: 1.5rem;
+  color: #ffffff; /* White text for headings */
+  margin-bottom: 10px;
+  width: 100%;
+}
+
+/* Certification-specific adjustments */
+.certification-card {
+  display: block;
+  text-decoration: none;
+}
+
+.certification-thumbnail {
+  width: 40px;
+  height: 40px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin-right: 15px;
+}
+
+.certification-card-content {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  justify-content: flex-start;
 }
 
 /* === Mobile Specific Adjustments for Education Page === */
@@ -70,20 +105,23 @@ h2 {
   }
 
   /* Adjust the courses list grid layout for smaller screens */
-  .courses-list {
+  .courses-list,
+  .certifications-list {
     grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); /* Decrease min column width */
     gap: 1rem; /* Reduce gap between cards */
     margin-top: 1.5rem; /* Reduced margin for better alignment */
   }
 
-  /* Adjust course card padding and font size for mobile */
-  .course-card {
+  /* Adjust course and certification card padding and font size for mobile */
+  .course-card,
+  .certification-card {
     padding: 1rem; /* Reduce padding for smaller screens */
     font-size: 0.9rem; /* Adjust font size */
     min-height: 80px; /* Optionally reduce the min-height */
   }
 
-  .course-card h3 {
+  .course-card h3,
+  .certification-card h3 {
     font-size: 1.2rem; /* Make heading font size smaller */
   }
 }

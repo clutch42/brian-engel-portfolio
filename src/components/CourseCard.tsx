@@ -1,10 +1,6 @@
 import React from "react";
 import { Link } from 'react-router-dom';
-
-interface Course {
-  id: string;
-  name: string;
-}
+import { Course } from '../types/Course';
 
 interface CourseCardProps {
   course: Course;

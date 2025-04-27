@@ -75,6 +75,15 @@
     outline: 4px auto -webkit-focus-ring-color;
 }
 
+/* Wrapper for skills and GitHub button */
+.skills-and-github {
+  display: flex;
+  justify-content: space-around;
+  align-items: center; /* Vertically center both sides */
+  margin-top: 1.5rem;
+  flex-wrap: wrap; /* allow wrapping on very small screens */
+}
+
 /* Mobile Adjustments */
 @media (max-width: 768px) {
   .course-detail {

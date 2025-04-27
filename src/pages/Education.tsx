@@ -1,6 +1,9 @@
 import '../styles/Education.css'
 import CourseCard from '../components/CourseCard';
 import coursesData from '../data/courses';
+import CertificationCard from '../components/CertificationCard';  // Adjust path if needed
+import { certifications } from '../data/certifications';  // Adjust based on where you store certifications data
+
 
 function Education() {
   return (
@@ -11,17 +14,18 @@ function Education() {
         {/* Display Course Cards in the Degree section */}
         <div className="courses-list">
             {coursesData.map(course => (
-                <CourseCard key={course.name} course={course} />
+                <CourseCard key={course.id} course={course} />
             ))}
         </div>
       </div>
 
       <div className="education-section">
-        <h2>Certifications</h2>
-        <ul>
-          <li>AWS Certified Cloud Practitioner</li>
-          <li>CompTIA A+ </li>
-        </ul>
+      <h2>Certifications</h2>
+      <div className="certifications-list">
+        {certifications.map(certification => (
+          <CertificationCard key={certification.id} certification={certification} />
+        ))}
+      </div>
       </div>
 
       <div className="education-section">

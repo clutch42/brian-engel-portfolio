@@ -16,13 +16,23 @@ function CourseDetail() {
     <div className="course-detail">
       <h2>{course.id}: {course.name}</h2>
       <p><strong>Description:</strong> {course.description}</p>
-      <div>
-        <strong>Skills:</strong>
-        <ul>
-          {course.skills.map((skill) => (
-            <li key={skill}>{skill}</li>
-          ))}
-        </ul>
+      <div className="skills-and-github">
+        <div>
+          <strong>Skills:</strong>
+          <ul>
+            {course.skills.map((skill) => (
+              <li key={skill}>{skill}</li>
+            ))}
+          </ul>
+        </div>
+        {/* Add the GitHub Button if a GitHub link exists */}
+        {course.github && (
+          <div className="github-button-wrapper">
+            <a href={course.github} target="_blank" rel="noopener noreferrer">
+              <button>View on GitHub</button>
+            </a>
+          </div>
+        )}
       </div>
       <div className="back-button-wrapper">
         <button onClick={() => navigate(-1)}>Go Back</button>

@@ -1,5 +1,6 @@
-// data/additionalLearning.ts
-export const additionalLearningData = [
+import { LearningSource } from '../types/LearningSource';
+
+export const additionalLearning: LearningSource[] = [
     {
       id: "codecademy",
       name: "Codecademy",
@@ -15,7 +16,26 @@ export const additionalLearningData = [
           name: "Python",
           shortDescription: "Learn Python basics and common libraries.",
         },
-        // more topics...
+        {
+          id: "learn-other stuff",
+          name: "Python",
+          shortDescription: "Learn Python basics and common libraries.",
+        },
+        {
+          id: "learn-python",
+          name: "Python",
+          shortDescription: "Learn Python basics and common libraries.",
+        },
+        {
+          id: "learn-python",
+          name: "Python",
+          shortDescription: "Learn Python basics and common libraries.",
+        },
+        {
+          id: "learn-python",
+          name: "Python",
+          shortDescription: "Learn Python basics and common libraries.",
+        },
       ]
     },
     {
@@ -39,4 +59,4 @@ export const additionalLearningData = [
     // more sources...
   ];
 
-  export default additionalLearningData;
+  export default additionalLearning;

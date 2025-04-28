@@ -141,7 +141,7 @@ h2 {
   text-align: center;
   cursor: pointer;
   transition: background-color 0.3s, transform 0.3s;
-  min-height: 150px; /* Set min height for consistency */
+  height: 150px; /* Set min height for consistency */
   width: 120px; 
 }
 
@@ -170,13 +170,14 @@ h2 {
 @media (max-width: 768px) {
   /* Adjust the padding for mobile to fit content better */
   .education-container {
-    padding: 2rem 1rem; /* Less padding on smaller screens */
+    margin-top: .5rem;
+    padding: 2rem 0rem; /* Less padding on smaller screens */
   }
 
   /* Adjust the education section's padding for mobile */
   .education-section {
     padding: 1.5rem; /* Reduce padding to fit content */
-    margin: 1rem; /* Reduce margin between sections */
+    margin: .5rem; /* Reduce margin between sections */
   }
 
   /* Adjust the courses list grid layout for smaller screens */
@@ -222,5 +223,18 @@ h2 {
     width: 50px;
     height: 50px;
     margin-right: 1rem;
+  }
+
+  .learning-source-card {
+    padding: .5rem;
+  }
+
+  .topics-list {
+    gap: 1rem;
+  }
+
+  .topic-card {
+    height: 120px;
+    width: 120px;
   }
 }

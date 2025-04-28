@@ -124,4 +124,28 @@ h2 {
   .certification-card h3 {
     font-size: 1.2rem; /* Make heading font size smaller */
   }
+
+  /* Fix the layout of certification cards for mobile */
+  .certifications-list {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
+
+  .certification-card {
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 1rem;
+  }
+
+  .certification-card-content {
+    padding: 0; /* Remove extra padding inside content on mobile */
+  }
+
+  .certification-thumbnail {
+    width: 50px;
+    height: 50px;
+    margin-right: 1rem;
+  }
 }

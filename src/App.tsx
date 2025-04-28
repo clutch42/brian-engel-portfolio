@@ -8,6 +8,7 @@ import Nav from './components/Nav';
 import HobbyDetails from './components/HobbyDetails';
 import ScrollToTop from './components/ScrollToTop';
 import CourseDetail from './components/CourseDetails';
+import CertificationDetails from "./components/CertificationDetails";
 
 function AppWrapper() {
   const location = useLocation();
@@ -38,6 +39,10 @@ function AppWrapper() {
           {/* Route for Courses */}
           <Route path="/courses/:id" element={<CourseDetail />} />
 
+          {/* Route for Certifications */}
+          <Route path="/certifications/:id" element={<CertificationDetails />} />
+
+          {/* Reroute for unknown routes */}
           <Route path="*" element={<Navigate to="/" replace />} />
         </Routes>
       </div>

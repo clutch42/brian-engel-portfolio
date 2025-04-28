@@ -1,0 +1,91 @@
+/* === Certification Detail Page Styling === */
+.certification-details-container {
+    padding: 2rem 1rem;
+    max-width: 900px;
+    margin: 4rem auto;
+    background-color: rgba(0, 0, 0, 0.7);
+    color: white;
+    border-radius: 8px;
+  }
+  
+  .certification-details-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1.5rem;
+  }
+  
+  .certification-details-container h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    text-align: center;
+  }
+  
+  .certification-details-container p {
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+  }
+  
+  .certification-details-container strong {
+    font-weight: bold;
+    color: #f7a600;
+  }
+  
+  .certification-details-container a {
+    color: #f7a600;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .certification-details-container a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Back button wrapper to center it */
+  .certification-details-container .back-button-wrapper {
+    display: flex;
+    justify-content: center; /* Center the button horizontally */
+    margin-top: 2rem; /* Add space between button and content */
+  }
+  
+  /* Back button styling */
+  .certification-details-container button {
+    background-color: #1a1a1a;
+    color: #e2e8f0;
+    font-size: 1rem;
+    padding: 0.8rem 1.6rem;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+    margin-top: 2rem;
+    transition: background-color 0.3s ease;
+  }
+  
+  /* Hover effect on back button */
+  .certification-details-container button:hover {
+    background-color: #646cff;
+  }
+  
+  /* Focus effect on back button */
+  .certification-details-container button:focus {
+    outline: 4px auto -webkit-focus-ring-color;
+  }
+  
+  /* Mobile Adjustments */
+  @media (max-width: 768px) {
+    .certification-details-container {
+      padding: 1.5rem 1rem; /* Adjust padding for mobile */
+      margin: 2rem; /* Reduce margin for mobile to give better spacing */
+      margin-top: 3rem;
+      max-width: 100%; /* Allow container to take up the full screen width */
+    }
+  
+    .certification-details-container h2 {
+      font-size: 1.8rem; /* Adjust heading size for mobile */
+    }
+  
+    .certification-details-container p {
+      font-size: 1.1rem; /* Adjust paragraph size for mobile */
+    }
+  }
+  

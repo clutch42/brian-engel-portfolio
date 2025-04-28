@@ -20,12 +20,12 @@ function Education() {
       </div>
 
       <div className="education-section">
-      <h2>Certifications</h2>
-      <div className="certifications-list">
-        {certifications.map(certification => (
-          <CertificationCard key={certification.id} certification={certification} />
-        ))}
-      </div>
+        <h2>Certifications</h2>
+        <div className="certifications-list">
+          {certifications.map(certification => (
+            <CertificationCard key={certification.id} certification={certification} />
+          ))}
+        </div>
       </div>
 
       <div className="education-section">

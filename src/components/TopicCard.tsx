@@ -8,11 +8,11 @@ interface TopicCardProps {
 
 const TopicCard: React.FC<TopicCardProps> = ({ topic }) => {
   return (
-    <div className="topic-card">
-        <Link to={`/topics/${topic.id}`} className="topic-card-link">
-            <h4>{topic.name}</h4>
-        </Link>
-    </div>
+    <Link to={`/topics/${topic.id}`} className="topic-card-link">
+      <div className="topic-card">
+              <h4>{topic.name}</h4>
+      </div>
+    </Link>
   );
 };
 

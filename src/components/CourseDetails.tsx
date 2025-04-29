@@ -35,7 +35,7 @@ function CourseDetail() {
         )}
       </div>
       <div className="back-button-wrapper">
-        <button onClick={() => navigate(-1)}>Go Back</button>
+        <button onClick={() => navigate(-1)}>Back</button>
       </div>
     </div>
   );

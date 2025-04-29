@@ -13,7 +13,21 @@ function Education() {
     <section className="education-container">
       <div className="education-section">
         <h2>Degree</h2>
-        <p>Southern New Hampshire University (SNHU) — Bachelor's Degree in Computer Science</p>
+        <div className="degree-details">
+          <img
+            src="/images/snhu-logo.png"
+            alt="SNHU Logo"
+            className="school-logo"
+          />
+          <div className="degree-text">
+            <p className="degree-title">B.S. in Computer Science</p>
+            <p className="school-name">Southern New Hampshire University</p>
+            <p className="honors">
+              <em>Summa Cum Laude</em> — <strong>GPA: 4.0</strong>
+            </p>
+          </div>
+        </div>
+        
         {/* Display Course Cards in the Degree section */}
         <div className="courses-list">
             {coursesData.map(course => (

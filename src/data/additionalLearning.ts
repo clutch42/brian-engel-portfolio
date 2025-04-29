@@ -3,8 +3,9 @@ import { LearningSource } from '../types/LearningSource';
 export const additionalLearning: LearningSource[] = [
     {
       id: "codecademy",
-      name: "Codecademy",
+      name: "Codecademy.com",
       description: "A platform for interactive coding tutorials across various programming languages and frameworks.",
+      image: '/images/codecademy.webp',
       topics: [
         {
           id: "learn_c",

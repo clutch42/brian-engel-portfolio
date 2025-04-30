@@ -1,50 +1,95 @@
-.projects {
-    /* padding: 4rem 2rem; */
-    /* background-color: #1a1a1a; Dark background to contrast with hero */
-    color: #fff;
-    text-align: center;
-  }
-  
-  .projects h2 {
-    font-size: 2.5em;
-    margin-bottom: 2rem;
-  }
-  
-  .project-list {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-    gap: 2rem;
-  }
-  
-  .project-card {
-    background-color: #2d2d2d;
-    padding: 1.5rem;
-    border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-    transition: transform 0.3s ease;
-  }
-  
-  .project-card:hover {
-    transform: translateY(-10px);
-  }
-  
-  .project-card h3 {
-    font-size: 1.8em;
-    margin-bottom: 1rem;
-  }
-  
-  .project-card p {
-    font-size: 1.1em;
-    margin-bottom: 1.5rem;
-  }
-  
-  .project-card a {
-    color: #4f86f7;
-    font-weight: 500;
-    text-decoration: none;
-  }
-  
-  .project-card a:hover {
-    text-decoration: underline;
-  }
-  
+.projects-container {
+  padding: 2rem 1rem;
+  max-width: 1200px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.projects-section {
+  z-index: 1;
+  color: white;
+  max-width: 100%;
+  background-color: rgba(0, 0, 0, 0.6); /* Greyish semi-transparent background */
+  padding: 2rem;
+  border-radius: 8px; /* Soft rounded corners */
+  margin: 2rem auto;
+}
+
+/* === Project Card Styling === */
+.project-card {
+  background-color: #1e1e2f; /* Dark background for card */
+  padding: 1.5rem;
+  border-radius: 12px;
+  color: #fff;  /* White text */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.4);
+  margin: 2rem 0;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.project-card h3 {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+.project-card p {
+  font-size: 1rem;
+  margin: 1rem 0;
+}
+
+.project-card .project-buttons {
+  display: flex;
+  justify-content: center;  /* Center the buttons */
+  gap: 1rem;  /* Space between the buttons */
+  margin-top: 1rem;  /* Add space above the buttons */
+}
+
+.project-card button {
+    background-color: #1a1a1a;
+    color: #e2e8f0;
+    font-size: 1rem;
+    padding: 0.8rem 1.6rem;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+    margin-top: 1rem;
+    transition: background-color 0.3s ease;
+}
+
+.project-card button:hover {
+  background-color: #646cff;
+}
+
+.project-card button:focus {
+  outline: 4px auto -webkit-focus-ring-color;
+}
+
+.project-card .expanded-content {
+  margin-top: 1rem;
+  font-size: 1rem;
+  color: #eee; /* Lighter content for expanded section */
+}
+
+.project-card p strong {
+  color: #f2f2f2;
+}
+
+.project-card .image-row {
+  display: flex;
+  gap: 1rem; /* Space between images */
+  margin: 2rem 0; /* Space between image row and other content */
+  justify-content: space-around;
+}
+
+.project-card .project-image {
+  width: 100%;
+  height: auto;
+  max-width: 200px; /* Adjust to fit your design needs */
+  border-radius: 8px; /* Optional: rounded corners for images */
+}
+
+.project-card .full-description {
+  margin-top: 1rem;
+  font-size: 1rem;
+  color: #eee;
+}

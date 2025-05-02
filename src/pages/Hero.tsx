@@ -1,7 +1,8 @@
 import React from 'react';
 import '../styles/Hero.css'; // Assuming you're still using global styles or separate component styles
 import ToggleImage from '../components/ToggleImage';
-import { Link } from 'react-router-dom';
+import { hobbies } from '../data/hobbies';
+import HobbyCard from "../components/HobbyCard";
 
 const Hero: React.FC = () => {
   return (
@@ -24,41 +25,11 @@ const Hero: React.FC = () => {
       <div className="hero-hobbies-container">
         <h2 className="hero-hobbies-title"></h2>
         <ul className="hero-hobbies-list">
-          <li className="hobby-card">
-            <Link to="hobby/bartending">
-              <img src="/images/bartending.webp" alt="bartending" className="hobby-image"/>
-            </Link>
-          </li>
-          <li className="hobby-card">
-            <Link to="hobby/hiking">
-              <img src="/images/teddy_dinosaur.webp" alt="teddy and dinosaur" className="hobby-image hobby-image-top"/>
-            </Link>
-          </li>
-          <li className="hobby-card">
-            <Link to="hobby/darts">
-              <img src="/images/darts.webp" alt="darts" className="hobby-image"/>
-            </Link>
-          </li>
-          <li className="hobby-card">
-            <Link to="hobby/gaming">
-              <img src="/images/gaming.webp" alt="gaming" className="hobby-image"/>
-            </Link>
-          </li>
-          <li className="hobby-card">
-            <Link to="hobby/baseball">
-              <img src="/images/baseball.webp" alt="baseball" className="hobby-image"/>
-            </Link>
-          </li>
-          <li className="hobby-card">
-            <Link to="hobby/cooking">
-              <img src="/images/cooking.webp" alt="cooking" className="hobby-image"/>
-            </Link>
-          </li>
-          <li className="hobby-card">
-            <Link to="hobby/disc_golf">
-              <img src="/images/disc_golf.webp" alt="disc golf" className="hobby-image"/>
-            </Link>
-          </li>
+          {hobbies.map(hobby => (
+            <li key={hobby.id}>
+              <HobbyCard hobby={hobby} />
+            </li>
+          ))}
         </ul>
         
       </div>

@@ -46,7 +46,7 @@ export const projects: Project[] = [
     githubLink: "https://github.com/clutch42/SNHU-CS-465-Full-Stack-Development-I/tree/main",
     whatILearned: 'This project gave me a solid introduction to full-stack development using the MEAN stack. I learned how the different pieces work together, \
     from setting up an API with Node and Express to managing data with MongoDB and building out dynamic interfaces with Handlebars and Angular. The entire \
-    project was run locally for development purposes, so there’s no live production site to link to. Still, it was a great hands-on experience and helped me \
+    project was run locally for development purposes, so there\'s no live production site to link to. Still, it was a great hands-on experience and helped me \
     understand how modern web apps are structured and deployed.',
   },
   {
@@ -56,7 +56,7 @@ export const projects: Project[] = [
     library to recreate a 3D scene of our choosing.",
     techStack: ["C++", "OpenGL", "GLFW", "GLEW"], // Technologies used
     fullDescription: [
-        'This project was part of my work in SNHU’s CS-330 Computational Graphics and Visualization course. I used C++ and OpenGL to recreate a custom 3D scene, \
+        'This project was part of my work in SNHU\'s CS-330 Computational Graphics and Visualization course. I used C++ and OpenGL to recreate a custom 3D scene, \
         focusing on creating geometry, applying textures, and implementing lighting effects. The project aimed to showcase my understanding of core graphics \
         concepts, including object transformations, camera control, and the graphics pipeline.',
         { type: 'image', src: '/images/3Dpic1.jpg' },
@@ -75,7 +75,7 @@ export const projects: Project[] = [
     githubLink: "https://github.com/clutch42/SNHU-CS-330-Computational-Graphics-and-Visualization/tree/master/CS-330-Project-Enhanced", // Optional GitHub link
     whatILearned: 'This project was a significant learning experience where I poured a lot of time and effort into mastering the intricacies of 3D graphics. \
     By building custom functions for vertex generation, textures, and multipurpose shaders, I gained a deep understanding of the graphics pipeline. The final \
-    result is a polished 3D scene that I’m proud of, and I’m confident it reflects the hard work and skills I developed throughout the process.',
+    result is a polished 3D scene that I\'m proud of, and I\'m confident it reflects the hard work and skills I developed throughout the process.',
   },
   {
     id: 4,

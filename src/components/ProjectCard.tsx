@@ -61,13 +61,19 @@ const ProjectCard: React.FC<ProjectCardProps> = ({ project }) => {
             <div className="project-buttons">
                 {project.githubLink && (
                     <a href={project.githubLink} target="_blank" rel="noopener noreferrer">
-                    <button className="project-button">View on GitHub</button>
+                        <button className="project-button">View on GitHub</button>
                     </a>
                 )}
 
                 {project.liveDemoLink && (
                     <a href={project.liveDemoLink} target="_blank" rel="noopener noreferrer">
-                    <button className="project-button">View Live Demo</button>
+                        <button className="project-button">View Live Demo</button>
+                    </a>
+                )}
+
+                {project.downloadLink && (
+                    <a href={project.downloadLink} download>
+                        <button className="project-button">Download Installer</button>
                     </a>
                 )}
             </div>

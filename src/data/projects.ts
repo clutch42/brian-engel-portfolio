@@ -71,11 +71,14 @@ export const projects: Project[] = [
         giving me full control over the rendering process.',
         { type: 'image', src: '/images/3Dpic3.jpg' },
         { type: 'image', src: '/images/3Dapp3.png' },
+        'I\'ve included a link to a Windows installer for this project if you\'d like to try it out. It only works on Windows, and since it\'s not digitally signed, \
+        your system will likely show a warning. Totally understandable if you\'d rather not install it.',
       ],
     githubLink: "https://github.com/clutch42/SNHU-CS-330-Computational-Graphics-and-Visualization/tree/master/CS-330-Project-Enhanced", // Optional GitHub link
     whatILearned: 'This project was a significant learning experience where I poured a lot of time and effort into mastering the intricacies of 3D graphics. \
     By building custom functions for vertex generation, textures, and multipurpose shaders, I gained a deep understanding of the graphics pipeline. The final \
     result is a polished 3D scene that I\'m proud of, and I\'m confident it reflects the hard work and skills I developed throughout the process.',
+    downloadLink: "https://brian-engel-portfolio.s3.us-east-2.amazonaws.com/MyOpenGLAppInstaller.exe",
   },
   {
     id: 4,

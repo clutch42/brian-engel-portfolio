@@ -8,5 +8,6 @@ export interface Project {
     githubLink?: string; // Optional GitHub link
     liveDemoLink?: string; // Optional live demo link
     whatILearned?: string;
+    downloadLink?: string;
   }
   

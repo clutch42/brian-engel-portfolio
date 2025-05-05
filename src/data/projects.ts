@@ -82,28 +82,50 @@ export const projects: Project[] = [
   },
   {
     id: 4,
-    title: "Portfolio Project",
-    shortDescription: "",
-    techStack: ["Vite", "React", "TypeScript", "Node.js", "NPM", "GitHub Actions", "AWS S3", "CloudFront", "Route 53"], // Technologies used
+    title: "Computer Science Capstone Project",
+    shortDescription: "This portfolio highlights key projects from my Computer Science coursework at Southern New Hampshire University, where I improved existing \
+    code and showcased it on a website, focusing on areas like software design, data structures, algorithms, and database management.",
+    techStack: ["C++", "OpenGL", "SQL", "SQLite", "JavaScript", "HTML", "CSS"], // Technologies used
     fullDescription: [
-        'this is testing sentence picture',
-        { type: 'image', src: '/images/bartending.webp' },
+        'The CS-499 Capstone Project brings together improvements to code from software design, algorithms and data structures, and databases. It shows how \
+        I\'ve applied key concepts like OOP, optimizing algorithms, and securing database applications.',
+        { type: 'image', src: '/images/ads.png' },
+        'For the algorithms and data structures section, I revisited a Binary Search Tree project and upgraded it with an AVL tree. The main goal was to make \
+        insertions, deletions, and lookups consistently fast by keeping the tree balanced automatically.',
+        { type: 'image', src: '/images/sde.png' },
+        'In the software design section, I refactored a 3D graphics app built with OpenGL to make the code more modular and reusable. I already had a solid \
+        handle on the graphics pipeline, so this round was more about improving structure and maintainability without changing the core functionality.',
+        { type: 'image', src: '/images/db.png' },
+        'The database project was all about locking down a C++ app that used SQLite. The original version tried to catch SQL injections with keyword filtering, \
+        but I overhauled it to use parameterized queries instead, a much safer approach. I also added a logging system to keep track of sketchy inputs and \
+        monitor potential threats in real time.',
+        'Check out the live demo to see code reviews for each improved project, along with GitHub links showing the before-and-after versions of the code.',
       ],
     githubLink: "https://github.com/clutch42/clutch42.github.io", // Optional GitHub link
     liveDemoLink: 'https://clutch42.github.io/',
-    whatILearned: 'I had a blast doing this site.',
+    whatILearned: 'This capstone pulled everything together. It gave me a chance to revisit past projects, clean them up, and apply what I\'ve learned, \
+    from writing modular, secure code to documenting it like a pro. It was a solid reminder of how much I\'ve grown and how important it is to build things the right way.',
   },
   {
     id: 5,
     title: "Simplifying a Radical",
-    shortDescription: "",
-    techStack: ["Vite", "React", "TypeScript", "Node.js", "NPM", "GitHub Actions", "AWS S3", "CloudFront", "Route 53"], // Technologies used
+    shortDescription: "A lightweight app that walks users through how to simplify square roots, built to help a student visualize and check their work step by step.",
+    techStack: ["C++", "JavaScript", "HTML", "CSS", "Emscripten", "WebAssembly", "Node.js", "Render"], // Technologies used
     fullDescription: [
-        'this is testing sentence picture',
-        { type: 'image', src: '/images/bartending.webp' },
+        'I made this tool while helping a friend\'s kid with trigonometry. He was struggling to understand how to simplify radicals, so I built a simple app \
+        that walks through the process one step at a time.',
+        { type: 'image', src: '/images/factorialblank.png' },
+        'The frontend is super simple, just an input field styled with some basic HTML and CSS. When you enter a number, it passes it to a C++ function that \
+        does the math and returns the answer as a string.',
+        'I used Emscripten to compile the C++ code into WebAssembly so it could run in the browser. That gave me the flexibility of C++ logic with the \
+        convenience of a web interface, and it worked great for making the logic easy to test and share.',
+        { type: 'image', src: '/images/factorialnumber.png' },
+        'Click \'View Live Demo\' to try it out. I\'s hosted on a free Render instance, so it might take up to a minute to wake up. Just a heads-up—it was \
+        built quickly, so it doesn\'t handle every edge case (like negative numbers or values over 2,147,483,647).'
       ],
     githubLink: "https://github.com/clutch42/Factorial_Interface", // Optional GitHub link
     liveDemoLink: 'https://factorial-interface.onrender.com',
-    whatILearned: 'I had a blast doing this site.',
+    whatILearned: 'I\'d never used Emscripten before this, so figuring out how to compile a C++ function and hook it up to a simple web UI was a great \
+    learning experience. It was cool seeing native code run in the browser, and it gave me a better understanding of how WebAssembly and JavaScript can work together.',
   },
 ];

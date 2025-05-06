@@ -12,7 +12,7 @@ export const projects: Project[] = [
         { type: 'image', src: '/images/github_workflow.png' },
         'At first, the site was only available over HTTP, but I wanted to challenge myself to get HTTPS working too. I used AWS \
         Certificate Manager along with CloudFront to secure the site with HTTPS.',
-        'Once that was working, I didn’t want to stick with a random default domain, so I bought a custom one and connected it using Route 53 for DNS.',
+        'Once that was working, I didn\'t want to stick with a random default domain, so I bought a custom one and connected it using Route 53 for DNS.',
         { type: 'image', src: '/images/s3.png' },
         { type: 'image', src: '/images/cloudfront.png' },
         { type: 'image', src: '/images/route53.png' },

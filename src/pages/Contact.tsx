@@ -8,6 +8,7 @@ function Contact() {
         </div>
 
         <form action="https://formspree.io/f/mldbbkev" method="POST" className="contact-form">
+          <input type="text" name="_gotcha" style={{ display:"none" }}/>
           <div className="form-group">
             <label htmlFor="name">Name</label>
             <input id="name" name="name" type="text" required />

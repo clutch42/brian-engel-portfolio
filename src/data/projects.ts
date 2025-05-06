@@ -102,7 +102,7 @@ export const projects: Project[] = [
         'Check out the live demo to see code reviews for each improved project, along with GitHub links showing the before-and-after versions of the code.',
       ],
     githubLink: "https://github.com/clutch42/clutch42.github.io", // Optional GitHub link
-    liveDemoLink: 'https://clutch42.github.io/',
+    liveDemoLink: 'https://clutch42.github.io/legacy',
     whatILearned: 'This capstone pulled everything together. It gave me a chance to revisit past projects, clean them up, and apply what I\'ve learned, \
     from writing modular, secure code to documenting it like a pro. It was a solid reminder of how much I\'ve grown and how important it is to build things the right way.',
   },

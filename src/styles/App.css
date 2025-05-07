@@ -98,6 +98,11 @@ p {
   will-change: background-position;
 }
 
+body, input, textarea {
+  background-color: #ffffff;
+  color: #000000;
+}
+
 @keyframes gradientShift {
   0% {
     background-position: 0% 50%;

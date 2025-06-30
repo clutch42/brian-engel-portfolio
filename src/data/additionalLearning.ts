@@ -24,6 +24,13 @@ export const additionalLearning: LearningSource[] = [
           link: "https://www.codecademy.com/profiles/clutch_42/certificates/b74a2390dfc4127fa5d43fe147425ad0",
         },
         {
+          id: "learn_cpp_intermediate",
+          name: "Learn Intermediate C++",
+          shortDescription: "Learn intermediate C++ concepts like variable scope, storage classes, OOP, namespaces, templates, enumerations, and more to build efficient applications.",
+          skills: ["Variable Scope", "Memory Management", "Encapsulation", "Inheritance", "Polymorphism", "Abstraction", "Namespaces", "Enums", "Templates"],
+          link: "https://www.codecademy.com/profiles/clutch_42/certificates/214fd9535e024b808ce7ddc8c6d50ae3",
+        },
+        {
           id: "learn_cs",
           name: "Learn C#",
           shortDescription: "Learn Microsoft's popular C# programming language, used to make websites, mobile apps, video games, VR, and more.",

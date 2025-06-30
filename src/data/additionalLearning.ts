@@ -79,6 +79,13 @@ export const additionalLearning: LearningSource[] = [
           skills: ["Types", "Functions", "Arrays", "Custom Types", "Union Types", "Type Narrowing", "Advanced Object Types"],
         },
         {
+          id: "intermediate_typeScript",
+          name: "Learn Intermediate Typescript",
+          shortDescription: "Dive into intermediate TypeScript concepts including class types, type narrowing, and generics.",
+          skills: ["Comfiguration", "Class Types", "Type Narrowing", "Generics"],
+          link: "https://www.codecademy.com/profiles/clutch_42/certificates/84f728978e434c02a78abaa0baca0d6c",
+        },
+        {
           id: "learn_python",
           name: "Learn Python 3",
           shortDescription: "Learn the basics of Python 3.12, one of the most powerful, versatile, and in-demand programming languages today.",

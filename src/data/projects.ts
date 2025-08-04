@@ -41,15 +41,35 @@ export const projects: Project[] = [
         { type: 'image', src: '/images/skills_tab.png' },
         { type: 'image', src: '/images/education_tab.png' },
         { type: 'image', src: '/images/certifications_tab.png' },
-        'I used Emscripten to compile the C++ code into WebAssembly so it could run in the browser. That gave me the flexibility of C++ logic with the \
-        convenience of a web interface, and it worked great for making the logic easy to test and share.',
-        { type: 'image', src: '/images/factorialnumber.png' },
-        'Click \'View Live Demo\' to try it out. I\'s hosted on a free Render instance, so it might take up to a minute to wake up. Just a heads-up—it was \
-        built quickly, so it doesn\'t handle every edge case (like negative numbers or values over 2,147,483,647).'
+        'One of the more unique components is the Summaries tab. Unlike the other tabs that store straightforward data, this one lets the user input a job title, \
+        then associate both a resume summary and a cover letter with it. When a job description is analyzed, OpenAI is used to extract all relevant job titles, \
+        which are then presented to the user to choose from. The selected job title determines which summary and cover letter are applied. The cover letter can \
+        include a {company} token, which gets automatically replaced with the company name—also extracted by OpenAI and confirmed by the user. This allows for \
+        quick tailoring of application materials to different roles with minimal manual effort.',
+        { type: 'image', src: '/images/summary_tab.png' },
+        'The PDF Generator tab is where everything comes together. At the top, users can choose an output directory for saving their resume and cover letter PDFs. \
+        A checkbox allows toggling the OpenAI API integration—useful for users without an API key. There\'s a text box to paste in a job description, and clicking \
+        "Analyze" kicks off a hybrid process using both regular expressions and the OpenAI API to extract key details like required skills, company name, and job \
+        title. Once analyzed, the user can compare extracted skills against their own (inputted via the app), then generate a custom resume and cover letter. Both \
+        documents are created using ReportLab, and smart features like {company} tags in the cover letter allow automatic insertion of the company name. There\'s \
+        also a handy section for quick-copying links (e.g., GitHub, LinkedIn), which are often needed when applying for jobs.',
+        { type: 'image', src: '/images/pdfgen1.png' },
+        { type: 'image', src: '/images/pdfgen2.png' },
+        { type: 'image', src: '/images/pdfgen3.png' },
+        { type: 'image', src: '/images/pdfgen4.png' },
+        { type: 'image', src: '/images/pdfgen5.png' },
+        'This project started as a personal tool—I initially built it to streamline my own resume workflows and never intended to share it publicly. But as it grew \
+        in functionality and polish, I realized it could be useful to others and decided to publish it on GitHub. That said, it’s not completely plug-and-play. \
+        Anyone who wants to use it will need to configure a few things: set up environment variables, add their OpenAI API key, and possibly customize prompt \
+        behavior and output formats in the OpenAI-driven sections. Despite that, the core design—modular tabs, automated PDF generation, and hybrid data extraction—proved \
+        flexible and powerful. The project was a great exercise in combining user-friendly design with intelligent automation.'
       ],
     githubLink: "https://github.com/clutch42/Resume_Automation", // Optional GitHub link
-    whatILearned: 'I\'d never used Emscripten before this, so figuring out how to compile a C++ function and hook it up to a simple web UI was a great \
-    learning experience. It was cool seeing native code run in the browser, and it gave me a better understanding of how WebAssembly and JavaScript can work together.',
+    whatILearned: 'This project helped solidify my understanding of building modular desktop applications using Python and Tkinter. I learned how to organize a \
+    complex multi-tab layout where each section reads from and writes to its own JSON file, making the app both scalable and easy to maintain. Integrating the \
+    OpenAI API introduced new challenges around balancing automation with user control, and it gave me practical experience designing hybrid workflows that combine \
+    AI-driven insight with traditional regex-based parsing. I also got hands-on with ReportLab for PDF generation, which required careful layout management and \
+    templating. Overall, this project pushed me to combine GUI design, data structuring, and intelligent automation into a cohesive, user-friendly tool.',
   },
   {
     id: 2,

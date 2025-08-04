@@ -26,6 +26,28 @@ export const projects: Project[] = [
     domain name. Most of all, I had a lot of fun building it.',
   },
   {
+    id: 6,
+    title: "Resume Generator",
+    shortDescription: "A Python app that uses OpenAI and automation to generate tailored resumes and cover letters from job descriptions.",
+    techStack: ["Python", "Tkinter", "OpenAI API", "ReportLab", "dotenv", "Regex", "JSON"], // Technologies used
+    fullDescription: [
+        'This app was built to help users manage, edit, and generate polished resumes from structured data. It features a multi-tab interface for organizing \
+        key categories like personal info, skills, education, and experience. Once populated, the tool can generate resumes and cover letters automatically in \
+        PDF format using pre-defined templates.',
+        { type: 'image', src: '/images/resume_builder_home_screen.png' },
+        'The frontend is super simple, just an input field styled with some basic HTML and CSS. When you enter a number, it passes it to a C++ function that \
+        does the math and returns the answer as a string.',
+        'I used Emscripten to compile the C++ code into WebAssembly so it could run in the browser. That gave me the flexibility of C++ logic with the \
+        convenience of a web interface, and it worked great for making the logic easy to test and share.',
+        { type: 'image', src: '/images/factorialnumber.png' },
+        'Click \'View Live Demo\' to try it out. I\'s hosted on a free Render instance, so it might take up to a minute to wake up. Just a heads-up—it was \
+        built quickly, so it doesn\'t handle every edge case (like negative numbers or values over 2,147,483,647).'
+      ],
+    githubLink: "https://github.com/clutch42/Resume_Automation", // Optional GitHub link
+    whatILearned: 'I\'d never used Emscripten before this, so figuring out how to compile a C++ function and hook it up to a simple web UI was a great \
+    learning experience. It was cool seeing native code run in the browser, and it gave me a better understanding of how WebAssembly and JavaScript can work together.',
+  },
+  {
     id: 2,
     title: "Full-Stack Site Conversion (MEAN Stack)",
     shortDescription: "Final Project for CS-465 Full Stack Development",

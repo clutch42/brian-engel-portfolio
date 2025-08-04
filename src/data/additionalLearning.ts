@@ -130,6 +130,13 @@ export const additionalLearning: LearningSource[] = [
           link: "https://www.codecademy.com/profiles/clutch_42/certificates/a549293c6e8d62a61ef1bec410b58162",
         },
         {
+          id: "learn_php",
+          name: "Learn PHP",
+          shortDescription: "Learn the fundamentals of PHP, one of the most popular languages of modern web development.",
+          skills: ["Data Types and Variables", "Conditional Expressions", "Arrays", "Loops", "Functions", "Classes and Objects", "PHP and HTML"],
+          link: "https://www.codecademy.com/profiles/clutch_42/certificates/a549293c6e8d62a61ef1bec410b58162",
+        },
+        {
           id: "mongodb",
           name: "Learn MongoDB",
           shortDescription: "Learn how to work with NoSQL databases and run basic CRUD operations in this introduction to MongoDB.",

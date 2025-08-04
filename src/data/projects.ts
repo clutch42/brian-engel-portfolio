@@ -35,8 +35,12 @@ export const projects: Project[] = [
         key categories like personal info, skills, education, and experience. Once populated, the tool can generate resumes and cover letters automatically in \
         PDF format using pre-defined templates.',
         { type: 'image', src: '/images/resume_builder_home_screen.png' },
-        'The frontend is super simple, just an input field styled with some basic HTML and CSS. When you enter a number, it passes it to a C++ function that \
-        does the math and returns the answer as a string.',
+        'The app uses tkinter to create a dynamic, scrollable GUI where each tab is modular and managed by its own class (e.g., SkillsTab, ExperienceTab, etc.). \
+        Each tab reads from and writes to its corresponding JSON file, allowing users to save and reload structured resume data. This modular architecture made \
+        the app easy to scale as new sections—like summaries or project details—were added.',
+        { type: 'image', src: '/images/skills_tab.png' },
+        { type: 'image', src: '/images/education_tab.png' },
+        { type: 'image', src: '/images/certifications_tab.png' },
         'I used Emscripten to compile the C++ code into WebAssembly so it could run in the browser. That gave me the flexibility of C++ logic with the \
         convenience of a web interface, and it worked great for making the logic easy to test and share.',
         { type: 'image', src: '/images/factorialnumber.png' },

@@ -26,7 +26,7 @@ export const projects: Project[] = [
     domain name. Most of all, I had a lot of fun building it.',
   },
   {
-    id: 6,
+    id: 2,
     title: "Resume Generator",
     shortDescription: "A Python app that uses OpenAI and automation to generate tailored resumes and cover letters from job descriptions.",
     techStack: ["Python", "Tkinter", "OpenAI API", "ReportLab", "dotenv", "Regex", "JSON"], // Technologies used
@@ -72,7 +72,7 @@ export const projects: Project[] = [
     templating. Overall, this project pushed me to combine GUI design, data structuring, and intelligent automation into a cohesive, user-friendly tool.',
   },
   {
-    id: 2,
+    id: 3,
     title: "Full-Stack Site Conversion (MEAN Stack)",
     shortDescription: "Final Project for CS-465 Full Stack Development",
     fullDescription: [
@@ -96,7 +96,7 @@ export const projects: Project[] = [
     understand how modern web apps are structured and deployed.',
   },
   {
-    id: 3,
+    id: 4,
     title: "OpenGL 3D Scene",
     shortDescription: "This project was part of my work in SNHU\'s CS-330 Computational Graphics and Visualisation course. It incorperated C++ and the OpenGL \
     library to recreate a 3D scene of our choosing.",
@@ -127,7 +127,7 @@ export const projects: Project[] = [
     downloadLink: "https://brian-engel-portfolio.s3.us-east-2.amazonaws.com/MyOpenGLAppInstaller.exe",
   },
   {
-    id: 4,
+    id: 5,
     title: "Computer Science Capstone Project",
     shortDescription: "This portfolio highlights key projects from my Computer Science coursework at Southern New Hampshire University, where I improved existing \
     code and showcased it on a website, focusing on areas like software design, data structures, algorithms, and database management.",
@@ -153,7 +153,7 @@ export const projects: Project[] = [
     from writing modular, secure code to documenting it like a pro. It was a solid reminder of how much I\'ve grown and how important it is to build things the right way.',
   },
   {
-    id: 5,
+    id: 6,
     title: "Simplifying a Radical",
     shortDescription: "A lightweight app that walks users through how to simplify square roots, built to help a student visualize and check their work step by step.",
     techStack: ["C++", "JavaScript", "HTML", "CSS", "Emscripten", "WebAssembly", "Node.js", "Render"], // Technologies used

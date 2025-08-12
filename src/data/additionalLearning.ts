@@ -201,6 +201,24 @@ export const additionalLearning: LearningSource[] = [
         },
       ]
     },
+    {
+      id: "alison",
+      name: "Alison.com",
+      description: "ALISON, a free online education platform, was established in 2007 by Mike Feerick in Galway, Ireland. The platform provides \
+      over 4,000 courses covering personal development, academics, and workplace skills.",
+      image: '/images/alison.png',
+      topics: [
+        {
+          id: "beginner_excel",
+          name: "Excel 2021 for Beginners",
+          shortDescription: "This spreadsheet course helps you learn Microsoft Excel 2021, a complete platform to help you organize data. You will \
+          see what it can do for you and examine all the features, including the uses of its interface. We provide information to assist you in \
+          creating a spreadsheet and using the dashboard.",
+          skills: ["Navigation", "Data Entry", "Formatting", "Formulas", "Functions", "Absolute and Relative References", "Named Ranges", "Templates", "Workbook Editing", "Keyboard Shortcuts"],
+          link: "https://alison.com/course/excel-2021-for-beginners",
+        },
+      ]
+    },
   ];
 
   export default additionalLearning;

@@ -217,6 +217,15 @@ export const additionalLearning: LearningSource[] = [
           skills: ["Navigation", "Data Entry", "Formatting", "Formulas", "Functions", "Absolute and Relative References", "Named Ranges", "Templates", "Workbook Editing", "Keyboard Shortcuts"],
           link: "https://alison.com/course/excel-2021-for-beginners",
         },
+        {
+          id: "intermediate_excel_2021",
+          name: "Intermediate Excel 2021",
+          shortDescription: "This course builds your skills in Microsoft Excel 2021, focusing on advanced calculations, logical functions, and data \
+          organization. You will explore navigation buttons, complex formulas, custom date formats, and sorting multiple columns while learning practical \
+          tools to improve workbook readability and efficiency.",
+          skills: ["Golden Rules of Spreadsheets", "Navigation Buttons", "Logical Functions", "Nested IF", "VLOOKUP (Approx & Exact Match)", "XLOOKUP", "XMATCH", "Multi-Column Sorting", "Custom Date Formats", "Workbook Editing", "Keyboard Shortcuts"],
+          link: "https://alison.com/course/intermediate-excel-2021"
+        }
       ]
     },
   ];
